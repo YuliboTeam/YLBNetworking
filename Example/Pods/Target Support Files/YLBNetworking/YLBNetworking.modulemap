@@ -1,0 +1,6 @@
+framework module YLBNetworking {
+  umbrella header "YLBNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -13,7 +13,7 @@ gitpush1() {
 if [ -n "$msg" ]; then
    git add .
    git commit -m "${msg}"
-   git pull
+   git pull origin master --allow-unrelated-histories
    echo -e "\033[32m 完成add、commit、pull操作 \033[0m"
    gitpush1
 else
